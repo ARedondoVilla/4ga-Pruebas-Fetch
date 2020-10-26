@@ -6,7 +6,7 @@ export default function(props) {
         <nav className="navbar">
             <div className="container">
                 <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
+               
                 <Link to="/contact">Contact</Link>
             </div>
         </nav>

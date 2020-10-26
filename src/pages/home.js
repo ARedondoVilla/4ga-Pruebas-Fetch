@@ -41,9 +41,6 @@ export default function(props) {
 
     return (
         <div className="container">
-            <div className="jumbotron">
-                <h1>Home page</h1>
-            </div>
             <h1>People</h1>
             {people.map((person, index) => <Card key={index} person={person}/>)}
             
