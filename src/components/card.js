@@ -9,8 +9,6 @@ export default function(props) {
            <p>Nombre: {person.name}</p>
            <p>Genero: {person.gender}</p>
            <p>Diamtro: {person.diameter}</p>
-
-           
         </div>
     )
 }
